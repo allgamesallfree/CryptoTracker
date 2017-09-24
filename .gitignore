@@ -6,6 +6,13 @@
 build/
 DerivedData/
 
+## OS X files
+.DS_Store
+.DS_Store?
+.Trashes
+.Spotlight-V100
+*.swp
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
