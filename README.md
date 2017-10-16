@@ -6,4 +6,4 @@ Tutorial to build this app (part 1): https://medium.com/@maxsteinapps/build-an-e
 
 ## Author
 
-Max Stein | [maxste.in](maxste.in) | [Twitter](https://twitter.com/maxsteinapps)
+Max Stein | [maxste.in](http://maxste.in) | [Twitter](https://twitter.com/maxsteinapps)
