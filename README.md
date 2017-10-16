@@ -7,3 +7,7 @@ Tutorial to build this app (part 1): https://medium.com/@maxsteinapps/build-an-e
 ## Author
 
 Max Stein | [maxste.in](http://maxste.in) | [Twitter](https://twitter.com/maxsteinapps)
+
+## License
+
+CryptoTracker is available under the MIT license. See the LICENSE file for more info.
