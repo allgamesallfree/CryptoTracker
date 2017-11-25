@@ -18,11 +18,8 @@ class PriceStackView: UIStackView {
         
         addArrangedSubview(valueLabel)
         addArrangedSubview(descriptionLabel)
-        alignment = .fill
         valueLabel.font = UIFont.systemFont(ofSize: 18, weight: .bold)
         descriptionLabel.font = UIFont.systemFont(ofSize: 15, weight: .light)
-        valueLabel.textAlignment = .center
-        descriptionLabel.textAlignment = .center
     }
     
     func setValues(for currencyType: CurrencyType) {

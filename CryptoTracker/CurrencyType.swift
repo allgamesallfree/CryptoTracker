@@ -6,7 +6,7 @@
 //  Copyright © 2017 Maxwell Stein. All rights reserved.
 //
 
-import UIKit
+import Foundation
 
 enum CurrencyType: String {
     case btc = "BTC",
