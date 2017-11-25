@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,39 +17,49 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="IF7-nP-pxg">
-                                <rect key="frame" x="136" y="311.5" width="103.5" height="44.5"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="2mq-hE-Nf5">
+                                <rect key="frame" x="0.0" y="194" width="375" height="434"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$0.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZSY-2S-CZu">
-                                        <rect key="frame" x="0.0" y="0.0" width="103.5" height="21.5"/>
-                                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ethereum Price" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dKu-hP-eAh">
-                                        <rect key="frame" x="0.0" y="26.5" width="103.5" height="18"/>
-                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="15"/>
-                                        <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="IF7-nP-pxg" customClass="PriceStackView" customModule="CryptoTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="50"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="bgf-mb-y4U" customClass="PriceStackView" customModule="CryptoTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="72.333333333333314" width="375" height="95"/>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="lFw-yj-hJN" customClass="PriceStackView" customModule="CryptoTracker" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="189.66666666666669" width="375" height="244.33333333333331"/>
+                                    </stackView>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="lFw-yj-hJN" secondAttribute="trailing" id="3LK-2o-u8k"/>
+                                    <constraint firstItem="lFw-yj-hJN" firstAttribute="leading" secondItem="2mq-hE-Nf5" secondAttribute="leading" id="Ljd-RN-3zM"/>
+                                    <constraint firstItem="bgf-mb-y4U" firstAttribute="leading" secondItem="2mq-hE-Nf5" secondAttribute="leading" id="Rek-Fh-gKr"/>
+                                    <constraint firstAttribute="trailing" secondItem="IF7-nP-pxg" secondAttribute="trailing" id="WcO-js-pnJ"/>
+                                    <constraint firstItem="IF7-nP-pxg" firstAttribute="leading" secondItem="2mq-hE-Nf5" secondAttribute="leading" id="d2j-H5-RfL"/>
+                                    <constraint firstAttribute="trailing" secondItem="bgf-mb-y4U" secondAttribute="trailing" id="hcI-PO-c22"/>
+                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="IF7-nP-pxg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Xth-im-qDJ"/>
-                            <constraint firstItem="IF7-nP-pxg" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dqT-0H-Txb"/>
+                            <constraint firstItem="2mq-hE-Nf5" firstAttribute="top" relation="lessThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="150" id="C3V-Se-YIO"/>
+                            <constraint firstAttribute="trailing" secondItem="2mq-hE-Nf5" secondAttribute="trailing" id="Wpz-4d-yDw"/>
+                            <constraint firstItem="2mq-hE-Nf5" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Xqg-RM-4B3"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="lessThanOrEqual" secondItem="2mq-hE-Nf5" secondAttribute="bottom" constant="150" id="uZE-sc-NeT"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="etherValueLabel" destination="ZSY-2S-CZu" id="TBf-jk-Xli"/>
+                        <outletCollection property="priceStackViews" destination="IF7-nP-pxg" collectionClass="NSMutableArray" id="te6-lu-c7I"/>
+                        <outletCollection property="priceStackViews" destination="bgf-mb-y4U" collectionClass="NSMutableArray" id="L4H-Nz-HtB"/>
+                        <outletCollection property="priceStackViews" destination="lFw-yj-hJN" collectionClass="NSMutableArray" id="ifS-Q4-Qe8"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="31.934032983508249"/>
         </scene>
     </scenes>
 </document>
