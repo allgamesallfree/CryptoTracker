@@ -13,7 +13,6 @@
 		6A57529E1F772C3C00CCFC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A57529D1F772C3C00CCFC3A /* Assets.xcassets */; };
 		6A5752A11F772C3C00CCFC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A57529F1F772C3C00CCFC3A /* LaunchScreen.storyboard */; };
 		6AAE59661FC9E0C100C548F0 /* PriceStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE59651FC9E0C100C548F0 /* PriceStackView.swift */; };
-		6AAE596A1FC9E5CA00C548F0 /* CurrencyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE59691FC9E5CA00C548F0 /* CurrencyType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +24,6 @@
 		6A5752A01F772C3C00CCFC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A5752A21F772C3C00CCFC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AAE59651FC9E0C100C548F0 /* PriceStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceStackView.swift; sourceTree = "<group>"; };
-		6AAE59691FC9E5CA00C548F0 /* CurrencyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +58,6 @@
 			children = (
 				6A5752961F772C3C00CCFC3A /* AppDelegate.swift */,
 				6A5752981F772C3C00CCFC3A /* ViewController.swift */,
-				6AAE59691FC9E5CA00C548F0 /* CurrencyType.swift */,
 				6AAE59651FC9E0C100C548F0 /* PriceStackView.swift */,
 				6A57529A1F772C3C00CCFC3A /* Main.storyboard */,
 				6A57529D1F772C3C00CCFC3A /* Assets.xcassets */,
@@ -144,7 +141,6 @@
 			files = (
 				6AAE59661FC9E0C100C548F0 /* PriceStackView.swift in Sources */,
 				6A5752991F772C3C00CCFC3A /* ViewController.swift in Sources */,
-				6AAE596A1FC9E5CA00C548F0 /* CurrencyType.swift in Sources */,
 				6A5752971F772C3C00CCFC3A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

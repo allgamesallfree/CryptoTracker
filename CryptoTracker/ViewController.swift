@@ -11,14 +11,5 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var priceStackViews: [PriceStackView]!
-    var currencies: [CurrencyType] = [.btc, .eth, .ltc]
-    
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        
-        for (i, priceStackView) in priceStackViews.enumerated() {
-            priceStackView.setValues(for: currencies[i])
-        }
-    }
     
 }
