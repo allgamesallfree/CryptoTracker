@@ -1,41 +1,34 @@
 //
-//  PriceStackView.swift
+//  CryptoTableViewCell.swift
 //  CryptoTracker
 //
-//  Created by Maxwell Stein on 11/25/17.
+//  Created by Maxwell Stein on 12/14/17.
 //  Copyright © 2017 Maxwell Stein. All rights reserved.
 //
 
 import UIKit
 
-class PriceStackView: UIStackView {
+class CryptoTableViewCell: UITableViewCell {
 
-    let valueLabel = UILabel()
-    let descriptionLabel = UILabel()
+    @IBOutlet weak var currencyImageView: UIImageView!
+    @IBOutlet weak var currencyName: UILabel!
+    @IBOutlet weak var currencyPrice: UILabel!
     
-    required init(coder: NSCoder) {
-        super.init(coder: coder)
-        
-        addArrangedSubview(valueLabel)
-        addArrangedSubview(descriptionLabel)
-        valueLabel.font = UIFont.systemFont(ofSize: 18, weight: .bold)
-        descriptionLabel.font = UIFont.systemFont(ofSize: 15, weight: .light)
-    }
-    
-    func setValues(for currencyType: CurrencyType) {
-        descriptionLabel.text = currencyType.name + " Price"
+    func formatCell(withCurrencyType currencyType: CurrencyType) {
+        currencyName.text = currencyType.name
+        currencyImageView.image = currencyType.image
         
         currencyType.requestValue { (value) in
             DispatchQueue.main.async {
                 guard let value = value else {
-                    self.valueLabel.text = "Failed"
+                    self.currencyPrice.text = "Failed to get price"
                     return
                 }
-                self.valueLabel.text = value.formattedCurrencyString
+                self.currencyPrice.text = value.formattedCurrencyString
             }
         }
     }
-    
+
 }
 
 private extension NSNumber {

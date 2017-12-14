@@ -7,29 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A5752971F772C3C00CCFC3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5752961F772C3C00CCFC3A /* AppDelegate.swift */; };
-		6A5752991F772C3C00CCFC3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A5752981F772C3C00CCFC3A /* ViewController.swift */; };
-		6A57529C1F772C3C00CCFC3A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A57529A1F772C3C00CCFC3A /* Main.storyboard */; };
-		6A57529E1F772C3C00CCFC3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A57529D1F772C3C00CCFC3A /* Assets.xcassets */; };
-		6A5752A11F772C3C00CCFC3A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A57529F1F772C3C00CCFC3A /* LaunchScreen.storyboard */; };
-		6AAE59661FC9E0C100C548F0 /* PriceStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE59651FC9E0C100C548F0 /* PriceStackView.swift */; };
-		6AAE596A1FC9E5CA00C548F0 /* CurrencyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAE59691FC9E5CA00C548F0 /* CurrencyType.swift */; };
+		6A388B021FE21D86006BA989 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A388B011FE21D86006BA989 /* AppDelegate.swift */; };
+		6A388B041FE21D86006BA989 /* CryptoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A388B031FE21D86006BA989 /* CryptoTableViewController.swift */; };
+		6A388B071FE21D86006BA989 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A388B051FE21D86006BA989 /* Main.storyboard */; };
+		6A388B091FE21D86006BA989 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A388B081FE21D86006BA989 /* Assets.xcassets */; };
+		6A388B0C1FE21D86006BA989 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A388B0A1FE21D86006BA989 /* LaunchScreen.storyboard */; };
+		6A388B141FE2E832006BA989 /* CryptoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A388B131FE2E832006BA989 /* CryptoTableViewCell.swift */; };
+		6A388B161FE2E8A6006BA989 /* CurrencyType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A388B151FE2E8A6006BA989 /* CurrencyType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6A5752931F772C3C00CCFC3A /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6A5752961F772C3C00CCFC3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A5752981F772C3C00CCFC3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6A57529B1F772C3C00CCFC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6A57529D1F772C3C00CCFC3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6A5752A01F772C3C00CCFC3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6A5752A21F772C3C00CCFC3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AAE59651FC9E0C100C548F0 /* PriceStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceStackView.swift; sourceTree = "<group>"; };
-		6AAE59691FC9E5CA00C548F0 /* CurrencyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyType.swift; sourceTree = "<group>"; };
+		6A388AFE1FE21D86006BA989 /* CryptoTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A388B011FE21D86006BA989 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A388B031FE21D86006BA989 /* CryptoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewController.swift; sourceTree = "<group>"; };
+		6A388B061FE21D86006BA989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A388B081FE21D86006BA989 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A388B0B1FE21D86006BA989 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A388B0D1FE21D86006BA989 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A388B131FE2E832006BA989 /* CryptoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoTableViewCell.swift; sourceTree = "<group>"; };
+		6A388B151FE2E8A6006BA989 /* CurrencyType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6A5752901F772C3C00CCFC3A /* Frameworks */ = {
+		6A388AFB1FE21D86006BA989 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,33 +39,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6A57528A1F772C3C00CCFC3A = {
+		6A388AF51FE21D86006BA989 = {
 			isa = PBXGroup;
 			children = (
-				6A5752951F772C3C00CCFC3A /* CryptoTracker */,
-				6A5752941F772C3C00CCFC3A /* Products */,
+				6A388B001FE21D86006BA989 /* CryptoTracker */,
+				6A388AFF1FE21D86006BA989 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6A5752941F772C3C00CCFC3A /* Products */ = {
+		6A388AFF1FE21D86006BA989 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6A5752931F772C3C00CCFC3A /* CryptoTracker.app */,
+				6A388AFE1FE21D86006BA989 /* CryptoTracker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A5752951F772C3C00CCFC3A /* CryptoTracker */ = {
+		6A388B001FE21D86006BA989 /* CryptoTracker */ = {
 			isa = PBXGroup;
 			children = (
-				6A5752961F772C3C00CCFC3A /* AppDelegate.swift */,
-				6A5752981F772C3C00CCFC3A /* ViewController.swift */,
-				6AAE59691FC9E5CA00C548F0 /* CurrencyType.swift */,
-				6AAE59651FC9E0C100C548F0 /* PriceStackView.swift */,
-				6A57529A1F772C3C00CCFC3A /* Main.storyboard */,
-				6A57529D1F772C3C00CCFC3A /* Assets.xcassets */,
-				6A57529F1F772C3C00CCFC3A /* LaunchScreen.storyboard */,
-				6A5752A21F772C3C00CCFC3A /* Info.plist */,
+				6A388B011FE21D86006BA989 /* AppDelegate.swift */,
+				6A388B031FE21D86006BA989 /* CryptoTableViewController.swift */,
+				6A388B131FE2E832006BA989 /* CryptoTableViewCell.swift */,
+				6A388B151FE2E8A6006BA989 /* CurrencyType.swift */,
+				6A388B051FE21D86006BA989 /* Main.storyboard */,
+				6A388B081FE21D86006BA989 /* Assets.xcassets */,
+				6A388B0A1FE21D86006BA989 /* LaunchScreen.storyboard */,
+				6A388B0D1FE21D86006BA989 /* Info.plist */,
 			);
 			path = CryptoTracker;
 			sourceTree = "<group>";
@@ -73,40 +73,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6A5752921F772C3C00CCFC3A /* CryptoTracker */ = {
+		6A388AFD1FE21D86006BA989 /* CryptoTracker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6A5752A51F772C3C00CCFC3A /* Build configuration list for PBXNativeTarget "CryptoTracker" */;
+			buildConfigurationList = 6A388B101FE21D86006BA989 /* Build configuration list for PBXNativeTarget "CryptoTracker" */;
 			buildPhases = (
-				6A57528F1F772C3C00CCFC3A /* Sources */,
-				6A5752901F772C3C00CCFC3A /* Frameworks */,
-				6A5752911F772C3C00CCFC3A /* Resources */,
+				6A388AFA1FE21D86006BA989 /* Sources */,
+				6A388AFB1FE21D86006BA989 /* Frameworks */,
+				6A388AFC1FE21D86006BA989 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = CryptoTracker;
-			productName = CryptoTracker;
-			productReference = 6A5752931F772C3C00CCFC3A /* CryptoTracker.app */;
+			productName = CryptoTracker2;
+			productReference = 6A388AFE1FE21D86006BA989 /* CryptoTracker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6A57528B1F772C3C00CCFC3A /* Project object */ = {
+		6A388AF61FE21D86006BA989 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0900;
-				LastUpgradeCheck = 0900;
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Maxwell Stein";
 				TargetAttributes = {
-					6A5752921F772C3C00CCFC3A = {
-						CreatedOnToolsVersion = 9.0;
+					6A388AFD1FE21D86006BA989 = {
+						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 6A57528E1F772C3C00CCFC3A /* Build configuration list for PBXProject "CryptoTracker" */;
+			buildConfigurationList = 6A388AF91FE21D86006BA989 /* Build configuration list for PBXProject "CryptoTracker" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -114,56 +114,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 6A57528A1F772C3C00CCFC3A;
-			productRefGroup = 6A5752941F772C3C00CCFC3A /* Products */;
+			mainGroup = 6A388AF51FE21D86006BA989;
+			productRefGroup = 6A388AFF1FE21D86006BA989 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6A5752921F772C3C00CCFC3A /* CryptoTracker */,
+				6A388AFD1FE21D86006BA989 /* CryptoTracker */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6A5752911F772C3C00CCFC3A /* Resources */ = {
+		6A388AFC1FE21D86006BA989 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A5752A11F772C3C00CCFC3A /* LaunchScreen.storyboard in Resources */,
-				6A57529E1F772C3C00CCFC3A /* Assets.xcassets in Resources */,
-				6A57529C1F772C3C00CCFC3A /* Main.storyboard in Resources */,
+				6A388B0C1FE21D86006BA989 /* LaunchScreen.storyboard in Resources */,
+				6A388B091FE21D86006BA989 /* Assets.xcassets in Resources */,
+				6A388B071FE21D86006BA989 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6A57528F1F772C3C00CCFC3A /* Sources */ = {
+		6A388AFA1FE21D86006BA989 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AAE59661FC9E0C100C548F0 /* PriceStackView.swift in Sources */,
-				6A5752991F772C3C00CCFC3A /* ViewController.swift in Sources */,
-				6AAE596A1FC9E5CA00C548F0 /* CurrencyType.swift in Sources */,
-				6A5752971F772C3C00CCFC3A /* AppDelegate.swift in Sources */,
+				6A388B041FE21D86006BA989 /* CryptoTableViewController.swift in Sources */,
+				6A388B021FE21D86006BA989 /* AppDelegate.swift in Sources */,
+				6A388B161FE2E8A6006BA989 /* CurrencyType.swift in Sources */,
+				6A388B141FE2E832006BA989 /* CryptoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6A57529A1F772C3C00CCFC3A /* Main.storyboard */ = {
+		6A388B051FE21D86006BA989 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6A57529B1F772C3C00CCFC3A /* Base */,
+				6A388B061FE21D86006BA989 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6A57529F1F772C3C00CCFC3A /* LaunchScreen.storyboard */ = {
+		6A388B0A1FE21D86006BA989 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6A5752A01F772C3C00CCFC3A /* Base */,
+				6A388B0B1FE21D86006BA989 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -171,7 +171,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6A5752A31F772C3C00CCFC3A /* Debug */ = {
+		6A388B0E1FE21D86006BA989 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -219,7 +219,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -228,7 +228,7 @@
 			};
 			name = Debug;
 		};
-		6A5752A41F772C3C00CCFC3A /* Release */ = {
+		6A388B0F1FE21D86006BA989 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -270,7 +270,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -278,13 +278,13 @@
 			};
 			name = Release;
 		};
-		6A5752A61F772C3C00CCFC3A /* Debug */ = {
+		6A388B111FE21D86006BA989 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WM74Y4A96J;
-				INFOPLIST_FILE = CryptoTracker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CryptoTracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxstein.CryptoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -293,13 +293,13 @@
 			};
 			name = Debug;
 		};
-		6A5752A71F772C3C00CCFC3A /* Release */ = {
+		6A388B121FE21D86006BA989 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WM74Y4A96J;
-				INFOPLIST_FILE = CryptoTracker/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CryptoTracker/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.maxstein.CryptoTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,25 +311,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6A57528E1F772C3C00CCFC3A /* Build configuration list for PBXProject "CryptoTracker" */ = {
+		6A388AF91FE21D86006BA989 /* Build configuration list for PBXProject "CryptoTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A5752A31F772C3C00CCFC3A /* Debug */,
-				6A5752A41F772C3C00CCFC3A /* Release */,
+				6A388B0E1FE21D86006BA989 /* Debug */,
+				6A388B0F1FE21D86006BA989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6A5752A51F772C3C00CCFC3A /* Build configuration list for PBXNativeTarget "CryptoTracker" */ = {
+		6A388B101FE21D86006BA989 /* Build configuration list for PBXNativeTarget "CryptoTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6A5752A61F772C3C00CCFC3A /* Debug */,
-				6A5752A71F772C3C00CCFC3A /* Release */,
+				6A388B111FE21D86006BA989 /* Debug */,
+				6A388B121FE21D86006BA989 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6A57528B1F772C3C00CCFC3A /* Project object */;
+	rootObject = 6A388AF61FE21D86006BA989 /* Project object */;
 }

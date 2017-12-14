@@ -6,12 +6,15 @@
 //  Copyright © 2017 Maxwell Stein. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 enum CurrencyType: String {
     case btc = "BTC",
     eth = "ETH",
-    ltc = "LTC"
+    ltc = "LTC",
+    xrp = "XRP",
+    xmr = "XMR",
+    neo = "NEO"
     
     var apiURL: URL? {
         let apiString = "https://min-api.cryptocompare.com/data/price?fsym=" + rawValue + "&tsyms=USD"
@@ -26,6 +29,29 @@ enum CurrencyType: String {
             return "Ethereum"
         case .ltc:
             return "Litecoin"
+        case .xrp:
+            return "Ripple"
+        case .xmr:
+            return "Monero"
+        case .neo:
+            return "Neo"
+        }
+    }
+    
+    var image: UIImage {
+        switch self {
+        case .btc:
+            return #imageLiteral(resourceName: "Bitcoin")
+        case .eth:
+            return #imageLiteral(resourceName: "Ethereum")
+        case .ltc:
+            return #imageLiteral(resourceName: "Litecoin")
+        case .xrp:
+            return #imageLiteral(resourceName: "Ripple")
+        case .xmr:
+            return #imageLiteral(resourceName: "Monero")
+        case .neo:
+            return #imageLiteral(resourceName: "NEO")
         }
     }
     
@@ -67,3 +93,4 @@ enum CurrencyType: String {
         request.resume()
     }
 }
+

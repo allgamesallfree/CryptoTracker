@@ -1,6 +1,6 @@
 # CryptoTracker
 
-A CryptoCurrency tracking application that returns the current value of Ethereum, Bitcoin, and Litecoin in USD.
+A CryptoCurrency tracking application that returns the current value of Ethereum, Bitcoin, Litecoin, Ripple and more in USD.
 
 Tutorial to build this app (part 1): https://medium.com/@maxsteinapps/build-an-ethereum-bitcoin-price-tracking-app-in-swift-f467b7f3ae35
 
