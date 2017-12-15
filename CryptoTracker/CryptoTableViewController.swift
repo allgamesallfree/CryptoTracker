@@ -24,7 +24,6 @@ final class CryptoTableViewController: UITableViewController {
             let currencyType = currencies[indexPath.row]
             cryptoTableViewCell.formatCell(withCurrencyType: currencyType)
         }
-        
         return tableViewCell
     }
     

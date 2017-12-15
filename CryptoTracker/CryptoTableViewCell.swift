@@ -20,11 +20,7 @@ class CryptoTableViewCell: UITableViewCell {
         
         currencyType.requestValue { (value) in
             DispatchQueue.main.async {
-                guard let value = value else {
-                    self.currencyPrice.text = "Failed to get price"
-                    return
-                }
-                self.currencyPrice.text = value.formattedCurrencyString
+                self.currencyPrice.text = value?.formattedCurrencyString ?? "Failed to get price"
             }
         }
     }
@@ -42,12 +38,7 @@ private extension NSNumber {
         let formatter = NumberFormatter()
         formatter.locale = Locale(identifier: "en_US")
         formatter.numberStyle = .currency
-        
-        // Ensure the value is non-nil and we can format it using the numberFormatter, if not return nil
-        guard let formattedCurrencyAmount = formatter.string(from: self) else {
-            return nil
-        }
-        return formattedCurrencyAmount
+        return formatter.string(from: self)
     }
     
 }

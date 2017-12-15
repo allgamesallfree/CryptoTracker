@@ -89,7 +89,6 @@ enum CurrencyType: String {
                 print(error.localizedDescription)
             }
         }
-        
         request.resume()
     }
 }
