@@ -34,7 +34,7 @@ enum CurrencyType: String {
         case .xmr:
             return "Monero"
         case .neo:
-            return "Neo"
+            return "NEO"
         }
     }
     
